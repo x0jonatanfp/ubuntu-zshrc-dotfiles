@@ -53,7 +53,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 # 3. Apply the custom .zshrc
-curl -L https://raw.githubusercontent.com/x0-jonatanfp/ubuntu-zshrc-dotfiles/main/.zshrc -o ~/.zshrc
+curl -L https://raw.githubusercontent.com/x0jonatanfp/ubuntu-zshrc-dotfiles/main/.zshrc -o ~/.zshrc
 
 # 4. Reload your terminal
 source ~/.zshrc
